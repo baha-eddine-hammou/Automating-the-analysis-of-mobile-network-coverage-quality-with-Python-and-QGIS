@@ -1,10 +1,10 @@
-Mobile Network Analysis Project
-Overview
+# Mobile Network Analysis Project
+## Overview
 This project focuses on analyzing mobile network quality data for a specific region by converting data from Excel to CSV, creating a geographical map in QGIS, and visualizing the mobile network quality using various thresholds. The project contains three main scripts:
 1. excel_to_csv.py: Converts an Excel file containing mobile network data to a CSV format.
 2. create_map_tunisia.py: Creates a map of Tunisia in QGIS.
 3. create_doc.py: Projects the mobile network quality data points on the map, applying appropriate thresholds for visualization.
-Project Structure
+## Project Structure
 
 /mobile_network_analysis
 │
@@ -12,14 +12,14 @@ Project Structure
 ├── create_map_tunisia.py     # Script to create the map of Tunisia in QGIS
 └── create_doc.py              # Script to visualize mobile network quality on the map
 
-Requirements
+## Requirements
 - Python 3.x
 - QGIS 3.38 (with Python support)
 - Required Python libraries:
   - pandas
   - openpyxl (for Excel file handling)
   - PyQt5 (for file dialogs, if needed)
-Installation
+## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/mobile_network_analysis.git
